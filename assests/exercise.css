@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+
+.chest {
+    position: absolute;
+    left: 150px;
+    color: #fff;
+}
+
+.content {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    line-break: auto;
+    font-size: large;
+    margin-left: 30px;
+}
+
+.chris {
+    width: 530px;
+    height: 380px;
+    top: 130px;
+    margin: 40px;
+}
+
+.c-exercise {
+    width: 20px !important;
+    position: relative;
+    top: 50px !important;
+}
+
+.section {
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+
+hr {
+    color: #fff !important;
+    margin-top: 50px !important;
+}

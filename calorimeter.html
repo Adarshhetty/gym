@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="inputs container">
+         <h1 class="calc-header">Calorimeter</h1>
+         <div class="mb-12 row m-2">
+           <label for="staticEmail" class="col-sm-2 col-form-label"> Age: </label>
+           <div class="col-sm-3">
+             <input
+               type="number"
+               class="form-control-plaintext border border-dark rounded-3 p-2"
+               id="age_cal"
+               value="20"
+             />
+           </div>
+         </div>
+         <div class="mx-3">
+           <label for="">Gender:</label>
+           <div class="form-check mx-5">
+             <input
+               class="form-check-input"
+               type="radio"
+               name="gender"
+               id="male_cal"
+               value="male"
+             />
+             <label class="form-check-label" for="flexRadioDefault1"> Male </label>
+           </div>
+           <div class="form-check mx-5">
+             <input
+               class="form-check-input"
+               type="radio"
+               name="gender"
+               id="female_cal"
+               value="female"
+             />
+             <label class="form-check-label" for="flexRadioDefault1">
+               Female
+             </label>
+           </div>
+         </div>
+         <div class="mb-12 row m-2">
+           <label for="staticEmail" class="col-sm-2 col-form-label">
+             Weight:
+           </label>
+           <div class="col-sm-3">
+             <input
+               type="text"
+               class="form-control-plaintext border border-dark rounded-3 p-2"
+               id="weight_cal"
+               placeholder="in kg"
+             />
+           </div>
+         </div>
+         <div class="mb-12 row m-2">
+           <label for="staticEmail" class="col-sm-2 col-form-label">
+             Height:
+           </label>
+           <div class="col-sm-3">
+             <input
+               type="text"
+               class="form-control-plaintext border border-dark rounded-3 p-2"
+               id="height_cal"
+               placeholder="in cm"
+             />
+           </div>
+         </div>
+         <button type="button" class="btn btn-outline-success mx-5 my-4 " id="calculate-calorie">
+           Calculate
+         </button>
+         <p class="bmr_result hidden para_result">Your Bmi is</p>
+      
+         <div class="container hidden" id="scheduler_link">
+          <h2>Schedule your plan now</h2>
+          <a href="http://" target="_blank" rel="noopener noreferrer">Schedule now</a>
+         </div>
+       </div> 
+       </section>
+      
+</body>
+<script
+src="https://kit.fontawesome.com/6e0c13140c.js"
+crossorigin="anonymous"
+></script>
+</html>

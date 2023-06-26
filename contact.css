@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: #ffffff !important;
+}
+
+.container {
+    margin-top: 60px;
+    text-align: center;
+    /* font-family: "IBM Plex Sans Condensed", sans-serif; */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    /* margin-right: 200px; */
+}
+
+.container p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.container form textarea {
+    width: 240px;
+    height: 110px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+.input-field {
+    margin-bottom: 17px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    /* margin: 2px; */
+}
+
+label {
+    margin-left: -155px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.row1 img {
+    width: 550px;
+}
